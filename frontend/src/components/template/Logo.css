@@ -1,6 +1,15 @@
 /**/
-aside.logo, aside a.logo {
+
+aside.logo {
     background-color: var(--bg-dark);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+aside.logo a {
+    background-color: var(--bg-dark);
+    margin: 15px;
+    width: 80px;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -8,10 +17,10 @@ aside.logo, aside a.logo {
     box-shadow: var(--shadow);
 }
 
-aside a.logo:hover {
-    background-color: rgba(255, 255, 255, 0.4);
+aside.logo a:hover {
+    background: linear-gradient(45deg, #000000 20%, #ffffff 80%);
 }
 
 aside.logo img {
-    width: 40%;
+    height: 8vh;
 }
