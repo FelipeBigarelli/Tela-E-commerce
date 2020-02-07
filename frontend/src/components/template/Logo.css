@@ -1,26 +1,19 @@
-/**/
-
-aside.logo {
-    background-color: var(--bg-dark);
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-}
-aside.logo a {
-    background-color: var(--bg-dark);
-    margin: 15px 15% 15px 0px;
-    width: 80px;
+.logo {
+    background: var(--bg-dark);
     display: flex;
     justify-content: center;
-    align-items: center;
-    padding: 5px;
-    box-shadow: var(--shadow);
+    overflow: hidden;
 }
 
-aside.logo a:hover {
-    background: linear-gradient(45deg, #000000 20%, #ffffff 80%);
+.logo img {
+    margin: 15px 20px;
+    width: 20%;
 }
 
-aside.logo img {
-    height: 8vh;
+.logo a {
+    width: 100%;
+}
+
+.logo a:hover {
+    background: linear-gradient(to bottom, #7fddf5 20%, #000000 80%);
 }

@@ -1,3 +1,10 @@
-.header {
-    background-color: white;
+header.header {
+    background-color: azure;
+    padding: 0 15px;
+    overflow: hidden;
+    white-space: nowrap;
+}
+
+header.header h1 {
+    font-size: 1.8em;
 }
