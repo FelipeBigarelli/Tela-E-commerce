@@ -3,12 +3,12 @@
 aside.logo {
     background-color: var(--bg-dark);
     display: flex;
-    justify-content: center;
+    justify-content: space-between;
     align-items: center;
 }
 aside.logo a {
     background-color: var(--bg-dark);
-    margin: 15px;
+    margin: 15px 15% 15px 0px;
     width: 80px;
     display: flex;
     justify-content: center;
